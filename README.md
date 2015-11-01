@@ -3,3 +3,7 @@
 ## 功能展示：
 
 <img src="https://github.com/NengQuan/20/blob/master/20.gif" alt="20 Screenshot" width="320" height="568" />
+</br>
+<img src="https://github.com/NengQuan/20/blob/master/display2.gif" alt="display2 Screenshot" width="320" height="568" />
+</br>
+<img src="https://github.com/NengQuan/20/blob/master/display3.gif" alt="display3 Screenshot" width="320" height="568" />
