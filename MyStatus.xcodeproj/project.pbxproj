@@ -30,8 +30,6 @@
 		FB562DE31BE4555D00BFA140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB562DE11BE4555D00BFA140 /* Main.storyboard */; };
 		FB562DE51BE4555D00BFA140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB562DE41BE4555D00BFA140 /* Assets.xcassets */; };
 		FB562DE81BE4555D00BFA140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB562DE61BE4555D00BFA140 /* LaunchScreen.storyboard */; };
-		FB562DF31BE4555D00BFA140 /* _1_textTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB562DF21BE4555D00BFA140 /* _1_textTests.m */; };
-		FB562DFE1BE4555D00BFA140 /* _1_textUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB562DFD1BE4555D00BFA140 /* _1_textUITests.m */; };
 		FB562E581BE499EA00BFA140 /* MyAbout20ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB562E561BE499EA00BFA140 /* MyAbout20ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		FB562E591BE499EA00BFA140 /* MyAbout20ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB562E571BE499EA00BFA140 /* MyAbout20ViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		FB6D004D1BE22C0F0097DCFC /* MyPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D004C1BE22C0F0097DCFC /* MyPictureViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -166,11 +164,7 @@
 		FB562DE71BE4555D00BFA140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB562DE91BE4555D00BFA140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB562DEE1BE4555D00BFA140 /* 01-textTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-textTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB562DF21BE4555D00BFA140 /* _1_textTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_textTests.m; sourceTree = "<group>"; };
-		FB562DF41BE4555D00BFA140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB562DF91BE4555D00BFA140 /* 01-textUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-textUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB562DFD1BE4555D00BFA140 /* _1_textUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_textUITests.m; sourceTree = "<group>"; };
-		FB562DFF1BE4555D00BFA140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB562E551BE499EA00BFA140 /* MyAbout20ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAbout20ViewController.h; sourceTree = "<group>"; };
 		FB562E561BE499EA00BFA140 /* MyAbout20ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAbout20ViewController.m; sourceTree = "<group>"; };
 		FB562E571BE499EA00BFA140 /* MyAbout20ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAbout20ViewController.xib; sourceTree = "<group>"; };
@@ -420,24 +414,6 @@
 				FB562DD91BE4555D00BFA140 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FB562DF11BE4555D00BFA140 /* 01-textTests */ = {
-			isa = PBXGroup;
-			children = (
-				FB562DF21BE4555D00BFA140 /* _1_textTests.m */,
-				FB562DF41BE4555D00BFA140 /* Info.plist */,
-			);
-			path = "01-textTests";
-			sourceTree = "<group>";
-		};
-		FB562DFC1BE4555D00BFA140 /* 01-textUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FB562DFD1BE4555D00BFA140 /* _1_textUITests.m */,
-				FB562DFF1BE4555D00BFA140 /* Info.plist */,
-			);
-			path = "01-textUITests";
 			sourceTree = "<group>";
 		};
 		FB6D00571BE22EBF0097DCFC /* Controller */ = {
@@ -700,8 +676,6 @@
 				FB899D6C1BD63C5600B056F5 /* MyStatusTests */,
 				FB899D771BD63C5600B056F5 /* MyStatusUITests */,
 				FB562DD71BE4555D00BFA140 /* 01-text */,
-				FB562DF11BE4555D00BFA140 /* 01-textTests */,
-				FB562DFC1BE4555D00BFA140 /* 01-textUITests */,
 				FB899D511BD63C5600B056F5 /* Products */,
 				DD8D71DC526A011CA27DFB20 /* Pods */,
 				572F5FD5B322BA3D061353A6 /* Frameworks */,
@@ -1094,7 +1068,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB562DF31BE4555D00BFA140 /* _1_textTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1102,7 +1075,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB562DFE1BE4555D00BFA140 /* _1_textUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

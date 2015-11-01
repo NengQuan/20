@@ -7,6 +7,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyStyleViewController">
             <connections>
                 <outlet property="choseStyleView" destination="BWD-cJ-ZDk" id="Jto-OV-xA9"/>
+                <outlet property="imageview" destination="zz2-5d-0IQ" id="Aji-hl-7Lp"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -69,6 +70,14 @@
                         <constraint firstItem="Tzx-v1-WoJ" firstAttribute="top" secondItem="BWD-cJ-ZDk" secondAttribute="top" id="zlS-Xx-RTg"/>
                     </constraints>
                 </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black-1" translatesAutoresizingMaskIntoConstraints="NO" id="zz2-5d-0IQ">
+                    <rect key="frame" x="209" y="62" width="182" height="326"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="182" id="0qz-md-wKG"/>
+                        <constraint firstAttribute="height" constant="326" id="MFj-PG-8eP"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <animations/>
             <color key="backgroundColor" red="0.94901960784313721" green="0.95686274509803915" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,11 +85,14 @@
                 <constraint firstAttribute="trailing" secondItem="BWD-cJ-ZDk" secondAttribute="trailing" id="84c-AG-2Nx"/>
                 <constraint firstItem="BWD-cJ-ZDk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BQT-cG-Aee"/>
                 <constraint firstAttribute="bottom" secondItem="BWD-cJ-ZDk" secondAttribute="bottom" id="Flb-wh-wiV"/>
+                <constraint firstItem="zz2-5d-0IQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="g81-K1-KTw"/>
+                <constraint firstItem="BWD-cJ-ZDk" firstAttribute="top" secondItem="zz2-5d-0IQ" secondAttribute="bottom" constant="62" id="nQw-Eb-60G"/>
             </constraints>
         </view>
     </objects>
     <resources>
         <image name="black" width="50" height="50"/>
+        <image name="black-1" width="375" height="667"/>
         <image name="blue" width="50" height="50"/>
         <image name="red" width="50" height="50"/>
     </resources>

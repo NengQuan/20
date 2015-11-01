@@ -24,14 +24,10 @@
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 - (void)btnClick
 {
-    NSLog(@"sds");
     [self.navigationController popViewControllerAnimated:YES];
 }
 

@@ -59,14 +59,16 @@
     image = [image stretchableImageWithLeftCapWidth:image.size.width * 0.5 topCapHeight:image.size.height * 0.5];
     [bar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
     bar.alpha = 0.8;
-//    [bar setBackgroundColor:MyColor(23, 345, 124)];
     // 设置title的字体
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     dict[NSFontAttributeName] = [UIFont systemFontOfSize:17];
  
     [bar setTitleTextAttributes:dict];
     
+
+    
 }
+
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
