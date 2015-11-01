@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Hqf-lW-QQZ" customClass="MyAllVideoView">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="321"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xhr-Ke-Iop">
+                    <rect key="frame" x="0.0" y="0.0" width="357" height="321"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5V-nj-yS9">
+                    <rect key="frame" x="143" y="125" width="71" height="71"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="71" id="CLG-GF-dOE"/>
+                        <constraint firstAttribute="width" constant="71" id="Lkz-0W-ILB"/>
+                    </constraints>
+                    <state key="normal" image="video-play"/>
+                    <connections>
+                        <action selector="Doplay:" destination="Hqf-lW-QQZ" eventType="touchUpInside" id="qZU-zj-U2y"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:02" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xs-2Q-Beu">
+                    <rect key="frame" x="318.5" y="304" width="38.5" height="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000次播放" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3I-VI-JZo">
+                    <rect key="frame" x="0.0" y="304" width="76.5" height="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xhr-Ke-Iop" secondAttribute="bottom" id="0A0-po-YXm"/>
+                <constraint firstItem="xhr-Ke-Iop" firstAttribute="top" secondItem="Hqf-lW-QQZ" secondAttribute="top" id="1YD-JE-PbP"/>
+                <constraint firstItem="xhr-Ke-Iop" firstAttribute="leading" secondItem="Hqf-lW-QQZ" secondAttribute="leading" id="5yD-us-mER"/>
+                <constraint firstItem="V5V-nj-yS9" firstAttribute="centerX" secondItem="Hqf-lW-QQZ" secondAttribute="centerX" id="Cy3-gA-zRZ"/>
+                <constraint firstItem="L3I-VI-JZo" firstAttribute="top" secondItem="Hqf-lW-QQZ" secondAttribute="top" id="Exu-Jw-TJ5"/>
+                <constraint firstItem="L3I-VI-JZo" firstAttribute="leading" secondItem="Hqf-lW-QQZ" secondAttribute="leading" id="FRS-L7-NqE"/>
+                <constraint firstAttribute="trailing" secondItem="L3I-VI-JZo" secondAttribute="trailing" id="Je5-1y-jgz"/>
+                <constraint firstAttribute="bottom" secondItem="L3I-VI-JZo" secondAttribute="bottom" id="MtP-B4-FxK"/>
+                <constraint firstAttribute="trailing" secondItem="xhr-Ke-Iop" secondAttribute="trailing" id="OhV-YJ-8wB"/>
+                <constraint firstAttribute="bottom" secondItem="7Xs-2Q-Beu" secondAttribute="bottom" id="Sdq-ww-5kU"/>
+                <constraint firstItem="V5V-nj-yS9" firstAttribute="centerY" secondItem="Hqf-lW-QQZ" secondAttribute="centerY" id="Vtb-PS-EYE"/>
+                <constraint firstAttribute="trailing" secondItem="7Xs-2Q-Beu" secondAttribute="trailing" id="l3Q-Uw-K7c"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Exu-Jw-TJ5"/>
+                    <exclude reference="Je5-1y-jgz"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="countLabel" destination="L3I-VI-JZo" id="X0p-HY-BbN"/>
+                <outlet property="iconview" destination="xhr-Ke-Iop" id="pPJ-dC-ar1"/>
+                <outlet property="timeLabel" destination="7Xs-2Q-Beu" id="OQ5-Uo-GVI"/>
+            </connections>
+            <point key="canvasLocation" x="459.5" y="324.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="video-play" width="71" height="71"/>
+    </resources>
+</document>

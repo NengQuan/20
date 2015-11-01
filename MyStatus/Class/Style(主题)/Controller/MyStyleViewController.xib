@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyStyleViewController">
+            <connections>
+                <outlet property="choseStyleView" destination="BWD-cJ-ZDk" id="Jto-OV-xA9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BWD-cJ-ZDk">
+                    <rect key="frame" x="0.0" y="450" width="600" height="150"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taO-Te-Kyn" userLabel="红色">
+                            <rect key="frame" x="200" y="0.0" width="200" height="150"/>
+                            <animations/>
+                            <state key="normal" image="red">
+                                <color key="titleColor" red="1" green="0.27210467659999998" blue="0.20012174960000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="SwitchTored:" destination="-1" eventType="touchUpInside" id="gr8-Qc-ndn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-v1-WoJ" userLabel="蓝色">
+                            <rect key="frame" x="400" y="0.0" width="200" height="150"/>
+                            <animations/>
+                            <state key="normal" image="blue">
+                                <color key="titleColor" red="1" green="0.27210467659999998" blue="0.20012174960000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="SwitchToblue:" destination="-1" eventType="touchUpInside" id="jvJ-07-URk"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSm-7h-jOd" userLabel="黑色">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
+                            <animations/>
+                            <state key="normal" image="black">
+                                <color key="titleColor" red="1" green="0.27210467659999998" blue="0.20012174960000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="SwitchToblack" destination="-1" eventType="touchUpInside" id="qnC-1c-3sr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="3zq-dC-4Fq"/>
+                        <constraint firstItem="taO-Te-Kyn" firstAttribute="top" secondItem="BWD-cJ-ZDk" secondAttribute="top" id="FJw-lG-edr"/>
+                        <constraint firstItem="Tzx-v1-WoJ" firstAttribute="leading" secondItem="taO-Te-Kyn" secondAttribute="trailing" id="KQq-5N-Zdb"/>
+                        <constraint firstAttribute="trailing" secondItem="Tzx-v1-WoJ" secondAttribute="trailing" id="V9a-bz-ggQ"/>
+                        <constraint firstItem="Tzx-v1-WoJ" firstAttribute="height" secondItem="HSm-7h-jOd" secondAttribute="height" id="VlM-z0-w3Q"/>
+                        <constraint firstItem="HSm-7h-jOd" firstAttribute="top" secondItem="BWD-cJ-ZDk" secondAttribute="top" id="W8M-Rc-wao"/>
+                        <constraint firstAttribute="bottom" secondItem="Tzx-v1-WoJ" secondAttribute="bottom" id="ba1-vk-L2q"/>
+                        <constraint firstItem="Tzx-v1-WoJ" firstAttribute="width" secondItem="HSm-7h-jOd" secondAttribute="width" id="fnK-c0-10i"/>
+                        <constraint firstItem="taO-Te-Kyn" firstAttribute="leading" secondItem="HSm-7h-jOd" secondAttribute="trailing" id="lme-TH-h2k"/>
+                        <constraint firstItem="taO-Te-Kyn" firstAttribute="width" secondItem="HSm-7h-jOd" secondAttribute="width" id="oZv-hd-qRS"/>
+                        <constraint firstAttribute="bottom" secondItem="HSm-7h-jOd" secondAttribute="bottom" id="pFd-IP-b0o"/>
+                        <constraint firstAttribute="bottom" secondItem="taO-Te-Kyn" secondAttribute="bottom" id="tqz-TF-ShG"/>
+                        <constraint firstItem="HSm-7h-jOd" firstAttribute="leading" secondItem="BWD-cJ-ZDk" secondAttribute="leading" id="w0a-kQ-E2b"/>
+                        <constraint firstItem="taO-Te-Kyn" firstAttribute="height" secondItem="HSm-7h-jOd" secondAttribute="height" id="yAp-TY-Siy"/>
+                        <constraint firstItem="Tzx-v1-WoJ" firstAttribute="top" secondItem="BWD-cJ-ZDk" secondAttribute="top" id="zlS-Xx-RTg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.95686274509803915" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="BWD-cJ-ZDk" secondAttribute="trailing" id="84c-AG-2Nx"/>
+                <constraint firstItem="BWD-cJ-ZDk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BQT-cG-Aee"/>
+                <constraint firstAttribute="bottom" secondItem="BWD-cJ-ZDk" secondAttribute="bottom" id="Flb-wh-wiV"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="black" width="50" height="50"/>
+        <image name="blue" width="50" height="50"/>
+        <image name="red" width="50" height="50"/>
+    </resources>
+</document>
