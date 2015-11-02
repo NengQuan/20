@@ -67,7 +67,11 @@
                                 <state key="normal" backgroundImage="like">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <state key="selected" backgroundImage="like_down"/>
                                 <state key="highlighted" backgroundImage="like_down"/>
+                                <connections>
+                                    <action selector="lickClick:" destination="Kr9-0r-x2r" eventType="touchUpInside" id="WDZ-Wb-mOI"/>
+                                </connections>
                             </button>
                             <view alpha="0.050000000000000003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K5r-GD-srm">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="0.5"/>
@@ -89,6 +93,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="comment_down"/>
+                                <connections>
+                                    <action selector="commentClcik:" destination="Kr9-0r-x2r" eventType="touchUpInside" id="tBL-cP-a9B"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>

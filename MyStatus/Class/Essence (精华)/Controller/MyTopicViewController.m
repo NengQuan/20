@@ -19,7 +19,7 @@
 #import "MyCommentViewController.h"
 
 
-@interface MyTopicViewController () <UITableViewDelegate>
+@interface MyTopicViewController () <UITableViewDelegate,MyAllViewCellDelegate>
 
 @property (nonatomic,strong) NSMutableArray *topices;
 // 存储最后一条动态的ID
@@ -179,7 +179,7 @@ static NSString * const XMGCellId = @"topic";
     MyAllViewCell *cell = [tableView dequeueReusableCellWithIdentifier:XMGCellId];
     
     cell.topic = self.topices[indexPath.row];
-    
+    cell.delegate = self;
     
     return cell;
 }
@@ -195,6 +195,13 @@ static NSString * const XMGCellId = @"topic";
 {
     MyCommentViewController *commentVC = [[MyCommentViewController alloc]init];
     commentVC.topic = self.topices[indexPath.row];
+    [self.navigationController pushViewController:commentVC animated:YES];
+}
+
+- (void)MyAllViewDidClick:(MyAllViewCell *)cell
+{
+    MyCommentViewController *commentVC = [[MyCommentViewController alloc]init];
+    commentVC.topic = cell.topic;
     [self.navigationController pushViewController:commentVC animated:YES];
 }
 @end

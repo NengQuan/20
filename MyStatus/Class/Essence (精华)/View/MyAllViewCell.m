@@ -25,6 +25,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *likebutton;
 @property (weak, nonatomic) IBOutlet UIButton *commentbutton;
 @property (weak, nonatomic) IBOutlet UILabel *likeLabel;
+- (IBAction)lickClick:(UIButton *)sender;
+
+- (IBAction)commentClcik:(UIButton *)sender;
 
 /** 图片控件 **/
 @property (nonatomic,weak) MyAllPictureView *pictureView;
@@ -163,5 +166,15 @@
     frame.size.height -= Mymargin ;
     
     [super setFrame:frame];
+}
+- (IBAction)lickClick:(UIButton *)sender {
+    sender.selected = !sender.selected;
+}
+
+- (IBAction)commentClcik:(UIButton *)sender {
+    if ([self.delegate respondsToSelector:@selector(MyAllViewDidClick:)]) {
+        [self.delegate MyAllViewDidClick:self];
+    }
+    
 }
 @end

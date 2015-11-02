@@ -60,12 +60,12 @@
         }
         
         // 正文内容
-        CGFloat textW = MyScreen.size.width - 2 * (Mymargin ) ;
+        CGFloat textW = MyScreen.size.width - 2 * (Mymargin + 6) ;
         CGFloat textH = [self.text boundingRectWithSize:CGSizeMake(textW, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont fontWithName:@"PingFang SC" size:16]} context:nil].size.height;
         _cellHeight += textH + Mymargin;
         
         // 赞和评论
-        CGFloat likeW = MyScreen.size.width - 2 * Mymargin;
+        CGFloat likeW = MyScreen.size.width - 2 * (Mymargin + 6);
         NSString *liketext = [NSString stringWithFormat:@"%zd个赞 . %zd个评论",self.ding,self.comment];
         CGFloat likeH = [liketext boundingRectWithSize:CGSizeMake(likeW, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont fontWithName:@"PingFang SC" size:14]} context:nil].size.height;
         _cellHeight += likeH + Mymargin;
