@@ -14,7 +14,7 @@
 {
     [super prepare];
     
-    self.stateLabel.textColor = MyColor(220, 20, 0);
+    self.stateLabel.textColor = MyColor(62, 68, 75);
 }
 
 

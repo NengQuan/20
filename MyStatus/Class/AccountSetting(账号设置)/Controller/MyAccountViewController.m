@@ -18,6 +18,7 @@
 #import "MyClearCacheCell.h"
 #import "MyAbout20ViewController.h"
 #import "REFrostedViewController.h"
+#import <SVProgressHUD.h>
 
 #define HeadH 200
 #define TabarH 44
@@ -129,6 +130,8 @@ static NSString  * const cacheID = @"clear";
         cell.item = item;
         return cell;
     }
+    
+    
     
 }
 

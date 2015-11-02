@@ -16,7 +16,7 @@
     
     self.automaticallyChangeAlpha = YES;
     
-    self.stateLabel.textColor = MyColor(222, 20,0);
+    self.stateLabel.textColor = MyColor(62, 68,75);
     
     [self setTitle:@"下拉刷新" forState:MJRefreshStateIdle];
     [self setTitle:@"释放更新" forState:MJRefreshStatePulling];
