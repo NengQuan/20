@@ -77,12 +77,12 @@
         
         // 设置导航栏左边按钮
         UIButton *leftbtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [leftbtn setImage:[UIImage imageNamed:@"navigationbar_back"] forState:UIControlStateNormal];
-        [leftbtn setImage:[UIImage imageNamed:@"navigationbar_back_highlighted"] forState:UIControlStateHighlighted];
+        [leftbtn setImage:[UIImage imageNamed:@"nav_back"] forState:UIControlStateNormal];
+        
         [leftbtn sizeToFit];
         
         [leftbtn addTarget:self action:@selector(lebtnClick) forControlEvents:UIControlEventTouchUpInside];
-
+        
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:leftbtn];
         
     }

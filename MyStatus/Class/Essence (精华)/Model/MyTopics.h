@@ -24,7 +24,7 @@ typedef enum : NSUInteger {
 
 
 /** 唯一标识 */
-@property (nonatomic, copy) NSString *ID;
+@property (nonatomic, copy) NSString *id;
 /** 名称 */
 @property (nonatomic, copy) NSString *name;
 /** 头像的URL */

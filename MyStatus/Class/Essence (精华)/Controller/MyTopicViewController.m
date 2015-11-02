@@ -16,6 +16,7 @@
 #import "MyDIVFooter.h"
 #import "MyNavigationViewController.h"
 #import "UIBarButtonItem+Extension.h"
+#import "MyCommentViewController.h"
 
 
 @interface MyTopicViewController () <UITableViewDelegate>
@@ -187,5 +188,13 @@ static NSString * const XMGCellId = @"topic";
 {
     MyTopics *topics = self.topices[indexPath.row];
     return topics.cellHeight;
+}
+
+#pragma mark - 代理方法
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    MyCommentViewController *commentVC = [[MyCommentViewController alloc]init];
+    commentVC.topic = self.topices[indexPath.row];
+    [self.navigationController pushViewController:commentVC animated:YES];
 }
 @end

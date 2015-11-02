@@ -86,6 +86,10 @@
 		FBC98E331BE4FAD600A941E2 /* MyStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC98E311BE4FAD600A941E2 /* MyStyleViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		FBC98E351BE5087E00A941E2 /* skin in Resources */ = {isa = PBXBuildFile; fileRef = FBC98E341BE5087E00A941E2 /* skin */; settings = {ASSET_TAGS = (); }; };
 		FBC98E391BE5098400A941E2 /* SkinTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC98E381BE5098400A941E2 /* SkinTool.m */; settings = {ASSET_TAGS = (); }; };
+		FBEF2A571BE784D300881E29 /* MyCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2A551BE784D300881E29 /* MyCommentViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FBEF2A581BE784D300881E29 /* MyCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEF2A561BE784D300881E29 /* MyCommentViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FBEF2A611BE7858B00881E29 /* MyCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2A5F1BE7858A00881E29 /* MyCommentCell.m */; settings = {ASSET_TAGS = (); }; };
+		FBEF2A621BE7858B00881E29 /* MyCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEF2A601BE7858B00881E29 /* MyCommentCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,6 +272,12 @@
 		FBC98E341BE5087E00A941E2 /* skin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = skin; sourceTree = "<group>"; };
 		FBC98E371BE5098400A941E2 /* SkinTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinTool.h; sourceTree = "<group>"; };
 		FBC98E381BE5098400A941E2 /* SkinTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinTool.m; sourceTree = "<group>"; };
+		FBEF2A541BE784D300881E29 /* MyCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCommentViewController.h; sourceTree = "<group>"; };
+		FBEF2A551BE784D300881E29 /* MyCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCommentViewController.m; sourceTree = "<group>"; };
+		FBEF2A561BE784D300881E29 /* MyCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCommentViewController.xib; sourceTree = "<group>"; };
+		FBEF2A5E1BE7858A00881E29 /* MyCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCommentCell.h; sourceTree = "<group>"; };
+		FBEF2A5F1BE7858A00881E29 /* MyCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCommentCell.m; sourceTree = "<group>"; };
+		FBEF2A601BE7858B00881E29 /* MyCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCommentCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -484,6 +494,9 @@
 		FB75EC2F1BE0B8DA0030E565 /* Topic */ = {
 			isa = PBXGroup;
 			children = (
+				FBEF2A5E1BE7858A00881E29 /* MyCommentCell.h */,
+				FBEF2A5F1BE7858A00881E29 /* MyCommentCell.m */,
+				FBEF2A601BE7858B00881E29 /* MyCommentCell.xib */,
 				FB0651C81BDFC24600107E7E /* MyAllViewCell.h */,
 				FB0651C91BDFC24600107E7E /* MyAllViewCell.m */,
 				FB0651CA1BDFC24600107E7E /* MyAllViewCell.xib */,
@@ -544,6 +557,9 @@
 				FB6D00521BE22C6C0097DCFC /* MyVoiceViewController.m */,
 				FB6D00541BE22CAE0097DCFC /* MyWordViewController.h */,
 				FB6D00551BE22CAE0097DCFC /* MyWordViewController.m */,
+				FBEF2A541BE784D300881E29 /* MyCommentViewController.h */,
+				FBEF2A551BE784D300881E29 /* MyCommentViewController.m */,
+				FBEF2A561BE784D300881E29 /* MyCommentViewController.xib */,
 			);
 			name = "Classification(分类浏览)";
 			sourceTree = "<group>";
@@ -975,6 +991,8 @@
 				FB6D006C1BE234760097DCFC /* MyCategeryCell.xib in Resources */,
 				FB562E591BE499EA00BFA140 /* MyAbout20ViewController.xib in Resources */,
 				FB7259F01BE065B30082CFB8 /* MySeeBigViewController.xib in Resources */,
+				FBEF2A621BE7858B00881E29 /* MyCommentCell.xib in Resources */,
+				FBEF2A581BE784D300881E29 /* MyCommentViewController.xib in Resources */,
 				FB0651CE1BDFC77100107E7E /* Images.xcassets in Resources */,
 				FB6D00711BE2348D0097DCFC /* MyFriendUserCell.xib in Resources */,
 				FBC98E351BE5087E00A941E2 /* skin in Resources */,
@@ -1126,6 +1144,7 @@
 				FB75EC211BE0A37B0030E565 /* MyTopicCenterView.m in Sources */,
 				FB76C0D61BD69D3000D79972 /* REFrostedViewController.m in Sources */,
 				FB0651B81BDFBCE700107E7E /* MyComment.m in Sources */,
+				FBEF2A571BE784D300881E29 /* MyCommentViewController.m in Sources */,
 				FB76C0D91BD69D3000D79972 /* UIView+REFrostedViewController.m in Sources */,
 				FB6D004D1BE22C0F0097DCFC /* MyPictureViewController.m in Sources */,
 				FB0651CB1BDFC24600107E7E /* MyAllViewCell.m in Sources */,
@@ -1133,6 +1152,7 @@
 				FB6D00671BE232F10097DCFC /* MyFriendUser.m in Sources */,
 				FB6D007B1BE2466C0097DCFC /* MyAccountViewController.m in Sources */,
 				FB76C0DB1BD69D3000D79972 /* MyMenuViewController.m in Sources */,
+				FBEF2A611BE7858B00881E29 /* MyCommentCell.m in Sources */,
 				FB6D00601BE2306A0097DCFC /* MySearchViewController.m in Sources */,
 				FB6D00501BE22C400097DCFC /* MyVideoViewController.m in Sources */,
 				FB6D00561BE22CAE0097DCFC /* MyWordViewController.m in Sources */,

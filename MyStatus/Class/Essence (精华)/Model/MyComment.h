@@ -16,4 +16,10 @@
 
 /** 用户模型 **/
 @property (nonatomic,strong) MyUser *user;
+
+/** id */
+@property (nonatomic, copy) NSString *id;
+
+/** 被点赞数 */
+@property (nonatomic, assign) NSInteger like_count;
 @end
