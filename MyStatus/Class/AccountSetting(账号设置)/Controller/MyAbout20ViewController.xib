@@ -14,7 +14,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_1024" translatesAutoresizingMaskIntoConstraints="NO" id="R0f-0R-jPv">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_" translatesAutoresizingMaskIntoConstraints="NO" id="R0f-0R-jPv">
                     <rect key="frame" x="150" y="100" width="300" height="300"/>
                     <animations/>
                     <constraints>
@@ -71,6 +71,6 @@
         </view>
     </objects>
     <resources>
-        <image name="logo_1024" width="512" height="512"/>
+        <image name="logo_" width="512" height="512"/>
     </resources>
 </document>
