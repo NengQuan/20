@@ -9,7 +9,7 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "AppIcon29x29@2x.png",
+      "filename" : "AppIcon29x29@2x-2.png",
       "scale" : "2x"
     },
     {
@@ -18,8 +18,9 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "AppIcon40x40@2x~ipad-4.png",
       "scale" : "2x"
     },
     {
@@ -40,8 +41,9 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "AppIcon60x60@2x-1.png",
       "scale" : "2x"
     },
     {
@@ -50,8 +52,9 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "ipad",
       "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "AppIcon29x29-1.png",
       "scale" : "1x"
     },
     {
@@ -135,6 +138,7 @@
     {
       "size" : "29x29",
       "idiom" : "watch",
+      "filename" : "AppIcon29x29@2x-1.png",
       "role" : "companionSettings",
       "scale" : "2x"
     },
@@ -201,6 +205,20 @@
       "scale" : "2x"
     },
     {
+      "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "AppIcon29x29~ipad-2.png",
+      "unassigned" : true,
+      "scale" : "1x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "AppIcon29x29~ipad-3.png",
+      "unassigned" : true,
+      "scale" : "1x"
+    },
+    {
       "size" : "40x40",
       "idiom" : "ipad",
       "filename" : "AppIcon40x40@2x~ipad-1.png",
@@ -213,6 +231,42 @@
       "filename" : "AppIcon40x40@2x~ipad.png",
       "unassigned" : true,
       "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "filename" : "AppIcon29x29@2x~ipad-3.png",
+      "unassigned" : true,
+      "role" : "companionSettings",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "AppIcon40x40@2x~ipad-2.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AppIcon40x40@2x~ipad-3.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AppIcon50x50@2x~ipad-1.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AppIcon72x72@2x~ipad-1.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AppIcon72x72~ipad-1.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AppIcon72x72~ipad.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AppIcon76x76@2x~ipad-1.png",
+      "unassigned" : true
     }
   ],
   "info" : {
