@@ -26,7 +26,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjR-e6-0Ev">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11-1" translatesAutoresizingMaskIntoConstraints="NO" id="PNc-yk-zxd">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="PNc-yk-zxd">
                             <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
                             <animations/>
                         </imageView>
@@ -67,6 +67,6 @@
     </objects>
     <resources>
         <image name="11" width="900" height="900"/>
-        <image name="11-1" width="500" height="252"/>
+        <image name="bg" width="1616" height="1080"/>
     </resources>
 </document>

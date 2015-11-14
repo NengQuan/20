@@ -20,4 +20,11 @@
     return MyWordType;
 }
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.navigationItem.title = @"段子";
+    
+}
+
 @end

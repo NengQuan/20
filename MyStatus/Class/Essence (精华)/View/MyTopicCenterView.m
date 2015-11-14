@@ -10,6 +10,7 @@
 #import "MySeeBigViewController.h"
 #import <VKVideoPlayerViewController.h>
 #import "MyTopics.h"
+#import "VidioPlayView.h"
 
 @interface MyTopicCenterView ()
 @property (weak, nonatomic) IBOutlet UIImageView *iconview;
@@ -56,5 +57,6 @@
     
     [viewController playVideoWithStreamURL:[NSURL URLWithString:self.topics.videouri]];
     [viewController playVideoWithStreamURL:[NSURL URLWithString:self.topics.voiceuri]];
+
 }
 @end

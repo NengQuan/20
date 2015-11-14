@@ -55,6 +55,9 @@ static NSString * const XMGCellId = @"topic";
     self.navigationItem.title = @"首页";
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithimage:@"nav_list_gray" Heightimage:@"nav_list_gray" target:(MyNavigationViewController *)self.navigationController action:@selector(showMenu)];
     
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
+    
 }
 
 /**

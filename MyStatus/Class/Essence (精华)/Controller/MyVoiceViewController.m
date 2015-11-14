@@ -20,4 +20,10 @@
     return MyVoiceType;
 }
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.navigationItem.title = @"声音";
+    
+}
 @end

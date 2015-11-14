@@ -17,7 +17,7 @@
 #import "UIView+Extension.h"
 
 
-@interface MyCommentViewController ()
+@interface MyCommentViewController () <UITableViewDataSource,UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomH;
@@ -64,6 +64,8 @@ static NSString * const ID = @"comment";
 
 - (void)setUptable
 {
+    // 内边距
+    self.tableView.contentInset = UIEdgeInsetsMake(MyNavBarbottom, 0, 0, 0);
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([MyCommentCell class]) bundle:nil] forCellReuseIdentifier:ID];
     self.tableView.sectionHeaderHeight = 30;
     
@@ -74,10 +76,7 @@ static NSString * const ID = @"comment";
     [self.tableView.header beginRefreshing];
     self.tableView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(LoadMoreComment)];
     
-    UIView *view = [[UIView alloc]init];
-    view.frame = CGRectMake(0, 0, 0, 150);
-    view.backgroundColor = [UIColor yellowColor];
-    self.tableView.tableHeaderView = view;
+    
 }
 
 - (void)setUpheader
@@ -98,7 +97,7 @@ static NSString * const ID = @"comment";
     
     [headerView addSubview:cell];
     
-    headerView.height = cell.height + Mymargin;
+    headerView.height = cell.height + 2 * Mymargin;
 
     
     self.tableView.tableHeaderView = headerView;

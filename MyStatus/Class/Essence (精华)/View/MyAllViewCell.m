@@ -80,6 +80,7 @@
     
     self.backgroundColor = [UIColor clearColor];
     self.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"mainCellBackground"]];
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
     
    
 }

@@ -20,4 +20,10 @@
     return MyPicType;
 }
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.navigationItem.title = @"图片";
+    
+}
 @end

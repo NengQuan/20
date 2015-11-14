@@ -20,5 +20,10 @@
     return MyVideoType;
 }
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
 
+    self.navigationItem.title = @"视频";
+    
+}
 @end
