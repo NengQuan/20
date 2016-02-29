@@ -76,7 +76,6 @@ static NSString * const ID = @"comment";
     [self.tableView.header beginRefreshing];
     self.tableView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(LoadMoreComment)];
     
-    
 }
 
 - (void)setUpheader
@@ -172,7 +171,6 @@ static NSString * const ID = @"comment";
         
         if ([responseObject isKindOfClass:[NSArray class]]) {
             weakSelf.tableView.footer.hidden = YES;
-            [self.tableView.header endRefreshing];
             return ;
         }
         //字典数组- 模型数组
@@ -184,8 +182,11 @@ static NSString * const ID = @"comment";
         
         // 隐藏刷新控件
         CGFloat total = [responseObject[@"total"] doubleValue];
-        if (self.latesComments.count == total) {
-            [self.tableView.header endRefreshing];
+        if (weakSelf.latesComments.count == total) {
+            weakSelf.tableView.mj_footer.hidden = YES;
+            
+        }else {
+            [self.tableView.mj_footer endRefreshing];
         }
         
         

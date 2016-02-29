@@ -23,9 +23,7 @@ static NSString *_skinColor; // 用于记录外面切换的皮肤
 + (void)setSkinColor:(NSString *)skinColor
 {
     _skinColor = skinColor;
-    
     // 记录用户选中的皮肤
-    
     [[NSUserDefaults standardUserDefaults] setObject:skinColor forKey:skinColor];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }

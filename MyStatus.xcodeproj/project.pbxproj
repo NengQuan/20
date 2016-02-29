@@ -8,105 +8,106 @@
 
 /* Begin PBXBuildFile section */
 		03EF8F5910F01B7E991599CE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D002B6BBE7C1BA924E33EA2 /* libPods.a */; };
-		FB0651AF1BDFBB2C00107E7E /* MyTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651AE1BDFBB2C00107E7E /* MyTopicViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB0651B21BDFBBDC00107E7E /* MyAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651B11BDFBBDC00107E7E /* MyAllViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB0651B51BDFBC7F00107E7E /* MyTopics.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651B41BDFBC7F00107E7E /* MyTopics.m */; settings = {ASSET_TAGS = (); }; };
-		FB0651B81BDFBCE700107E7E /* MyComment.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651B71BDFBCE700107E7E /* MyComment.m */; settings = {ASSET_TAGS = (); }; };
-		FB0651BB1BDFBD1500107E7E /* MyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651BA1BDFBD1500107E7E /* MyUser.m */; settings = {ASSET_TAGS = (); }; };
-		FB0651BE1BDFBE1B00107E7E /* MyDIVHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651BD1BDFBE1B00107E7E /* MyDIVHeader.m */; settings = {ASSET_TAGS = (); }; };
-		FB0651C11BDFBE2800107E7E /* MyDIVFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651C01BDFBE2800107E7E /* MyDIVFooter.m */; settings = {ASSET_TAGS = (); }; };
-		FB0651C41BDFBF5A00107E7E /* Myconst.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651C31BDFBF5A00107E7E /* Myconst.m */; settings = {ASSET_TAGS = (); }; };
-		FB0651CB1BDFC24600107E7E /* MyAllViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651C91BDFC24600107E7E /* MyAllViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		FB0651CC1BDFC24600107E7E /* MyAllViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB0651CA1BDFC24600107E7E /* MyAllViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		FB0651CE1BDFC77100107E7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0651CD1BDFC77100107E7E /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		FB4B036C1BE38A47002281B4 /* MyAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B036B1BE38A47002281B4 /* MyAccountCell.m */; settings = {ASSET_TAGS = (); }; };
-		FB4B036F1BE39643002281B4 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B036E1BE39643002281B4 /* UIImage+Extension.m */; settings = {ASSET_TAGS = (); }; };
-		FB4B03721BE397FA002281B4 /* MyClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B03711BE397FA002281B4 /* MyClearCacheCell.m */; settings = {ASSET_TAGS = (); }; };
-		FB4B03751BE3990F002281B4 /* NSString+FileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B03741BE3990F002281B4 /* NSString+FileSize.m */; settings = {ASSET_TAGS = (); }; };
-		FB4B93FE1BD76B04005CDE87 /* NSString+Filepath.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B93FD1BD76B04005CDE87 /* NSString+Filepath.m */; settings = {ASSET_TAGS = (); }; };
+		FB0651AF1BDFBB2C00107E7E /* MyTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651AE1BDFBB2C00107E7E /* MyTopicViewController.m */; };
+		FB0651B21BDFBBDC00107E7E /* MyAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651B11BDFBBDC00107E7E /* MyAllViewController.m */; };
+		FB0651B51BDFBC7F00107E7E /* MyTopics.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651B41BDFBC7F00107E7E /* MyTopics.m */; };
+		FB0651B81BDFBCE700107E7E /* MyComment.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651B71BDFBCE700107E7E /* MyComment.m */; };
+		FB0651BB1BDFBD1500107E7E /* MyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651BA1BDFBD1500107E7E /* MyUser.m */; };
+		FB0651BE1BDFBE1B00107E7E /* MyDIVHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651BD1BDFBE1B00107E7E /* MyDIVHeader.m */; };
+		FB0651C11BDFBE2800107E7E /* MyDIVFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651C01BDFBE2800107E7E /* MyDIVFooter.m */; };
+		FB0651C41BDFBF5A00107E7E /* Myconst.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651C31BDFBF5A00107E7E /* Myconst.m */; };
+		FB0651CB1BDFC24600107E7E /* MyAllViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0651C91BDFC24600107E7E /* MyAllViewCell.m */; };
+		FB0651CC1BDFC24600107E7E /* MyAllViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB0651CA1BDFC24600107E7E /* MyAllViewCell.xib */; };
+		FB0651CE1BDFC77100107E7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0651CD1BDFC77100107E7E /* Images.xcassets */; };
+		FB4B036C1BE38A47002281B4 /* MyAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B036B1BE38A47002281B4 /* MyAccountCell.m */; };
+		FB4B036F1BE39643002281B4 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B036E1BE39643002281B4 /* UIImage+Extension.m */; };
+		FB4B03721BE397FA002281B4 /* MyClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B03711BE397FA002281B4 /* MyClearCacheCell.m */; };
+		FB4B03751BE3990F002281B4 /* NSString+FileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B03741BE3990F002281B4 /* NSString+FileSize.m */; };
+		FB4B93FE1BD76B04005CDE87 /* NSString+Filepath.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B93FD1BD76B04005CDE87 /* NSString+Filepath.m */; };
 		FB562DDA1BE4555D00BFA140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB562DD91BE4555D00BFA140 /* main.m */; };
 		FB562DDD1BE4555D00BFA140 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB562DDC1BE4555D00BFA140 /* AppDelegate.m */; };
 		FB562DE01BE4555D00BFA140 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB562DDF1BE4555D00BFA140 /* ViewController.m */; };
 		FB562DE31BE4555D00BFA140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB562DE11BE4555D00BFA140 /* Main.storyboard */; };
 		FB562DE51BE4555D00BFA140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB562DE41BE4555D00BFA140 /* Assets.xcassets */; };
 		FB562DE81BE4555D00BFA140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB562DE61BE4555D00BFA140 /* LaunchScreen.storyboard */; };
-		FB562E581BE499EA00BFA140 /* MyAbout20ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB562E561BE499EA00BFA140 /* MyAbout20ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB562E591BE499EA00BFA140 /* MyAbout20ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB562E571BE499EA00BFA140 /* MyAbout20ViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		FB6D004D1BE22C0F0097DCFC /* MyPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D004C1BE22C0F0097DCFC /* MyPictureViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D00501BE22C400097DCFC /* MyVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D004F1BE22C400097DCFC /* MyVideoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D00531BE22C6C0097DCFC /* MyVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00521BE22C6C0097DCFC /* MyVoiceViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D00561BE22CAE0097DCFC /* MyWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00551BE22CAE0097DCFC /* MyWordViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D00601BE2306A0097DCFC /* MySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D005E1BE2306A0097DCFC /* MySearchViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D00611BE2306A0097DCFC /* MySearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6D005F1BE2306A0097DCFC /* MySearchViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		FB6D00641BE232E20097DCFC /* MyCategery.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00631BE232E20097DCFC /* MyCategery.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D00671BE232F10097DCFC /* MyFriendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00661BE232F10097DCFC /* MyFriendUser.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D006B1BE234760097DCFC /* MyCategeryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00691BE234760097DCFC /* MyCategeryCell.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D006C1BE234760097DCFC /* MyCategeryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6D006A1BE234760097DCFC /* MyCategeryCell.xib */; settings = {ASSET_TAGS = (); }; };
-		FB6D00701BE2348D0097DCFC /* MyFriendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D006E1BE2348D0097DCFC /* MyFriendUserCell.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D00711BE2348D0097DCFC /* MyFriendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6D006F1BE2348D0097DCFC /* MyFriendUserCell.xib */; settings = {ASSET_TAGS = (); }; };
-		FB6D007B1BE2466C0097DCFC /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00791BE2466C0097DCFC /* MyAccountViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB6D007C1BE2466C0097DCFC /* MyAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6D007A1BE2466C0097DCFC /* MyAccountViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		FB7259DE1BE0580D0082CFB8 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259DD1BE0580D0082CFB8 /* UIImageView+Extension.m */; settings = {ASSET_TAGS = (); }; };
-		FB7259E11BE058170082CFB8 /* UIImage+CutCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259E01BE058170082CFB8 /* UIImage+CutCircle.m */; settings = {ASSET_TAGS = (); }; };
-		FB7259E41BE0610C0082CFB8 /* MyAllPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259E31BE0610C0082CFB8 /* MyAllPictureView.m */; settings = {ASSET_TAGS = (); }; };
-		FB7259E61BE061220082CFB8 /* MyAllPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7259E51BE061220082CFB8 /* MyAllPictureView.xib */; settings = {ASSET_TAGS = (); }; };
-		FB7259EF1BE065B30082CFB8 /* MySeeBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259ED1BE065B30082CFB8 /* MySeeBigViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB7259F01BE065B30082CFB8 /* MySeeBigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7259EE1BE065B30082CFB8 /* MySeeBigViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		FB7259F31BE072DF0082CFB8 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259F21BE072DF0082CFB8 /* NSDate+Extension.m */; settings = {ASSET_TAGS = (); }; };
-		FB75EC211BE0A37B0030E565 /* MyTopicCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75EC201BE0A37B0030E565 /* MyTopicCenterView.m */; settings = {ASSET_TAGS = (); }; };
-		FB75EC271BE0AD3C0030E565 /* MyAllVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75EC261BE0AD3C0030E565 /* MyAllVoiceView.m */; settings = {ASSET_TAGS = (); }; };
-		FB75EC291BE0AD450030E565 /* MyAllVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB75EC281BE0AD450030E565 /* MyAllVoiceView.xib */; settings = {ASSET_TAGS = (); }; };
-		FB75EC2C1BE0ADEE0030E565 /* MyAllVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75EC2B1BE0ADEE0030E565 /* MyAllVideoView.m */; settings = {ASSET_TAGS = (); }; };
-		FB75EC2E1BE0AE540030E565 /* MyAllVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB75EC2D1BE0AE540030E565 /* MyAllVideoView.xib */; settings = {ASSET_TAGS = (); }; };
-		FB76C0D31BD69D3000D79972 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0AC1BD69D3000D79972 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0D41BD69D3000D79972 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B01BD69D3000D79972 /* RECommonFunctions.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0D51BD69D3000D79972 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B21BD69D3000D79972 /* REFrostedContainerViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0D61BD69D3000D79972 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B41BD69D3000D79972 /* REFrostedViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0D71BD69D3000D79972 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B61BD69D3000D79972 /* UIImage+REFrostedViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0D81BD69D3000D79972 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B81BD69D3000D79972 /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0D91BD69D3000D79972 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0BA1BD69D3000D79972 /* UIView+REFrostedViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0DA1BD69D3000D79972 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0BC1BD69D3000D79972 /* UIViewController+REFrostedViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0DB1BD69D3000D79972 /* MyMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0BF1BD69D3000D79972 /* MyMenuViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0DC1BD69D3000D79972 /* MyNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0C11BD69D3000D79972 /* MyNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0DD1BD69D3000D79972 /* MyCommentGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0C41BD69D3000D79972 /* MyCommentGroup.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0DE1BD69D3000D79972 /* MyCommentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0C61BD69D3000D79972 /* MyCommentItem.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0DF1BD69D3000D79972 /* textViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0C81BD69D3000D79972 /* textViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0E01BD69D3000D79972 /* MyMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0CB1BD69D3000D79972 /* MyMenuCell.m */; settings = {ASSET_TAGS = (); }; };
-		FB76C0E11BD69D3000D79972 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0CD1BD69D3000D79972 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FB82EB651BE35477000E2A75 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82EB641BE35477000E2A75 /* UIImage+Image.m */; settings = {ASSET_TAGS = (); }; };
+		FB562E581BE499EA00BFA140 /* MyAbout20ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB562E561BE499EA00BFA140 /* MyAbout20ViewController.m */; };
+		FB562E591BE499EA00BFA140 /* MyAbout20ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB562E571BE499EA00BFA140 /* MyAbout20ViewController.xib */; };
+		FB6D004D1BE22C0F0097DCFC /* MyPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D004C1BE22C0F0097DCFC /* MyPictureViewController.m */; };
+		FB6D00501BE22C400097DCFC /* MyVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D004F1BE22C400097DCFC /* MyVideoViewController.m */; };
+		FB6D00531BE22C6C0097DCFC /* MyVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00521BE22C6C0097DCFC /* MyVoiceViewController.m */; };
+		FB6D00561BE22CAE0097DCFC /* MyWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00551BE22CAE0097DCFC /* MyWordViewController.m */; };
+		FB6D00601BE2306A0097DCFC /* MySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D005E1BE2306A0097DCFC /* MySearchViewController.m */; };
+		FB6D00611BE2306A0097DCFC /* MySearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6D005F1BE2306A0097DCFC /* MySearchViewController.xib */; };
+		FB6D00641BE232E20097DCFC /* MyCategery.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00631BE232E20097DCFC /* MyCategery.m */; };
+		FB6D00671BE232F10097DCFC /* MyFriendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00661BE232F10097DCFC /* MyFriendUser.m */; };
+		FB6D006B1BE234760097DCFC /* MyCategeryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00691BE234760097DCFC /* MyCategeryCell.m */; };
+		FB6D006C1BE234760097DCFC /* MyCategeryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6D006A1BE234760097DCFC /* MyCategeryCell.xib */; };
+		FB6D00701BE2348D0097DCFC /* MyFriendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D006E1BE2348D0097DCFC /* MyFriendUserCell.m */; };
+		FB6D00711BE2348D0097DCFC /* MyFriendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6D006F1BE2348D0097DCFC /* MyFriendUserCell.xib */; };
+		FB6D007B1BE2466C0097DCFC /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6D00791BE2466C0097DCFC /* MyAccountViewController.m */; };
+		FB6D007C1BE2466C0097DCFC /* MyAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6D007A1BE2466C0097DCFC /* MyAccountViewController.xib */; };
+		FB7259DE1BE0580D0082CFB8 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259DD1BE0580D0082CFB8 /* UIImageView+Extension.m */; };
+		FB7259E11BE058170082CFB8 /* UIImage+CutCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259E01BE058170082CFB8 /* UIImage+CutCircle.m */; };
+		FB7259E41BE0610C0082CFB8 /* MyAllPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259E31BE0610C0082CFB8 /* MyAllPictureView.m */; };
+		FB7259E61BE061220082CFB8 /* MyAllPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7259E51BE061220082CFB8 /* MyAllPictureView.xib */; };
+		FB7259EF1BE065B30082CFB8 /* MySeeBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259ED1BE065B30082CFB8 /* MySeeBigViewController.m */; };
+		FB7259F01BE065B30082CFB8 /* MySeeBigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7259EE1BE065B30082CFB8 /* MySeeBigViewController.xib */; };
+		FB7259F31BE072DF0082CFB8 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7259F21BE072DF0082CFB8 /* NSDate+Extension.m */; };
+		FB75EC211BE0A37B0030E565 /* MyTopicCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75EC201BE0A37B0030E565 /* MyTopicCenterView.m */; };
+		FB75EC271BE0AD3C0030E565 /* MyAllVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75EC261BE0AD3C0030E565 /* MyAllVoiceView.m */; };
+		FB75EC291BE0AD450030E565 /* MyAllVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB75EC281BE0AD450030E565 /* MyAllVoiceView.xib */; };
+		FB75EC2C1BE0ADEE0030E565 /* MyAllVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75EC2B1BE0ADEE0030E565 /* MyAllVideoView.m */; };
+		FB75EC2E1BE0AE540030E565 /* MyAllVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB75EC2D1BE0AE540030E565 /* MyAllVideoView.xib */; };
+		FB76C0D31BD69D3000D79972 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0AC1BD69D3000D79972 /* AppDelegate.m */; };
+		FB76C0D41BD69D3000D79972 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B01BD69D3000D79972 /* RECommonFunctions.m */; };
+		FB76C0D51BD69D3000D79972 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B21BD69D3000D79972 /* REFrostedContainerViewController.m */; };
+		FB76C0D61BD69D3000D79972 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B41BD69D3000D79972 /* REFrostedViewController.m */; };
+		FB76C0D71BD69D3000D79972 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B61BD69D3000D79972 /* UIImage+REFrostedViewController.m */; };
+		FB76C0D81BD69D3000D79972 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0B81BD69D3000D79972 /* UIView+Extension.m */; };
+		FB76C0D91BD69D3000D79972 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0BA1BD69D3000D79972 /* UIView+REFrostedViewController.m */; };
+		FB76C0DA1BD69D3000D79972 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0BC1BD69D3000D79972 /* UIViewController+REFrostedViewController.m */; };
+		FB76C0DB1BD69D3000D79972 /* MyMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0BF1BD69D3000D79972 /* MyMenuViewController.m */; };
+		FB76C0DC1BD69D3000D79972 /* MyNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0C11BD69D3000D79972 /* MyNavigationViewController.m */; };
+		FB76C0DD1BD69D3000D79972 /* MyCommentGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0C41BD69D3000D79972 /* MyCommentGroup.m */; };
+		FB76C0DE1BD69D3000D79972 /* MyCommentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0C61BD69D3000D79972 /* MyCommentItem.m */; };
+		FB76C0DF1BD69D3000D79972 /* textViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0C81BD69D3000D79972 /* textViewController.m */; };
+		FB76C0E01BD69D3000D79972 /* MyMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0CB1BD69D3000D79972 /* MyMenuCell.m */; };
+		FB76C0E11BD69D3000D79972 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76C0CD1BD69D3000D79972 /* ViewController.m */; };
+		FB82EB651BE35477000E2A75 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82EB641BE35477000E2A75 /* UIImage+Image.m */; };
 		FB899D551BD63C5600B056F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB899D541BD63C5600B056F5 /* main.m */; };
 		FB899D5E1BD63C5600B056F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB899D5C1BD63C5600B056F5 /* Main.storyboard */; };
 		FB899D631BD63C5600B056F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB899D611BD63C5600B056F5 /* LaunchScreen.storyboard */; };
 		FB899D6E1BD63C5600B056F5 /* MyStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB899D6D1BD63C5600B056F5 /* MyStatusTests.m */; };
 		FB899D791BD63C5600B056F5 /* MyStatusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB899D781BD63C5600B056F5 /* MyStatusUITests.m */; };
-		FB90968D1BD7862F002D5A9A /* MyHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90968C1BD7862F002D5A9A /* MyHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED0D1BEFBA2900994AC1 /* FullView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA9ECF91BEFBA2900994AC1 /* FullView.m */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED0E1BEFBA2900994AC1 /* bg_loading-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFB1BEFBA2900994AC1 /* bg_loading-568h@2x.jpg */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED0F1BEFBA2900994AC1 /* bg_loading@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFC1BEFBA2900994AC1 /* bg_loading@2x.jpg */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED101BEFBA2900994AC1 /* full_minimize_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFD1BEFBA2900994AC1 /* full_minimize_btn@2x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED111BEFBA2900994AC1 /* full_minimize_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFE1BEFBA2900994AC1 /* full_minimize_btn@3x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED121BEFBA2900994AC1 /* full_pause_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFF1BEFBA2900994AC1 /* full_pause_btn@2x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED131BEFBA2900994AC1 /* full_pause_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED001BEFBA2900994AC1 /* full_pause_btn@3x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED141BEFBA2900994AC1 /* full_play_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED011BEFBA2900994AC1 /* full_play_btn@2x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED151BEFBA2900994AC1 /* full_play_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED021BEFBA2900994AC1 /* full_play_btn@3x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED161BEFBA2900994AC1 /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA9ED041BEFBA2900994AC1 /* FullViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED171BEFBA2900994AC1 /* mini_launchFullScreen_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED051BEFBA2900994AC1 /* mini_launchFullScreen_btn@2x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED181BEFBA2900994AC1 /* mini_launchFullScreen_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED061BEFBA2900994AC1 /* mini_launchFullScreen_btn@3x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED191BEFBA2900994AC1 /* mvplayer_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED071BEFBA2900994AC1 /* mvplayer_pause@2x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED1A1BEFBA2900994AC1 /* mvplayer_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED081BEFBA2900994AC1 /* mvplayer_play@2x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED1B1BEFBA2900994AC1 /* player_slider_playback_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED091BEFBA2900994AC1 /* player_slider_playback_thumb@2x.png */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED1C1BEFBA2900994AC1 /* VidioPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA9ED0B1BEFBA2900994AC1 /* VidioPlayView.m */; settings = {ASSET_TAGS = (); }; };
-		FBA9ED1D1BEFBA2900994AC1 /* VidioPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED0C1BEFBA2900994AC1 /* VidioPlayView.xib */; settings = {ASSET_TAGS = (); }; };
-		FBB974A11BD7309600FCCE64 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB974A01BD7309600FCCE64 /* UIBarButtonItem+Extension.m */; settings = {ASSET_TAGS = (); }; };
-		FBB974A41BD73D6F00FCCE64 /* MyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB974A31BD73D6F00FCCE64 /* MyAccount.m */; settings = {ASSET_TAGS = (); }; };
-		FBC98E321BE4FAD600A941E2 /* MyStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC98E301BE4FAD600A941E2 /* MyStyleViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FBC98E331BE4FAD600A941E2 /* MyStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC98E311BE4FAD600A941E2 /* MyStyleViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		FBC98E351BE5087E00A941E2 /* skin in Resources */ = {isa = PBXBuildFile; fileRef = FBC98E341BE5087E00A941E2 /* skin */; settings = {ASSET_TAGS = (); }; };
-		FBC98E391BE5098400A941E2 /* SkinTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC98E381BE5098400A941E2 /* SkinTool.m */; settings = {ASSET_TAGS = (); }; };
-		FBEF2A571BE784D300881E29 /* MyCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2A551BE784D300881E29 /* MyCommentViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FBEF2A581BE784D300881E29 /* MyCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEF2A561BE784D300881E29 /* MyCommentViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		FBEF2A611BE7858B00881E29 /* MyCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2A5F1BE7858A00881E29 /* MyCommentCell.m */; settings = {ASSET_TAGS = (); }; };
-		FBEF2A621BE7858B00881E29 /* MyCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEF2A601BE7858B00881E29 /* MyCommentCell.xib */; settings = {ASSET_TAGS = (); }; };
+		FB90968D1BD7862F002D5A9A /* MyHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90968C1BD7862F002D5A9A /* MyHTTPSessionManager.m */; };
+		FB91710D1C0BE1C10059F7C6 /* CleanImages.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91710C1C0BE1C10059F7C6 /* CleanImages.m */; };
+		FBA9ED0D1BEFBA2900994AC1 /* FullView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA9ECF91BEFBA2900994AC1 /* FullView.m */; };
+		FBA9ED0E1BEFBA2900994AC1 /* bg_loading-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFB1BEFBA2900994AC1 /* bg_loading-568h@2x.jpg */; };
+		FBA9ED0F1BEFBA2900994AC1 /* bg_loading@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFC1BEFBA2900994AC1 /* bg_loading@2x.jpg */; };
+		FBA9ED101BEFBA2900994AC1 /* full_minimize_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFD1BEFBA2900994AC1 /* full_minimize_btn@2x.png */; };
+		FBA9ED111BEFBA2900994AC1 /* full_minimize_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFE1BEFBA2900994AC1 /* full_minimize_btn@3x.png */; };
+		FBA9ED121BEFBA2900994AC1 /* full_pause_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ECFF1BEFBA2900994AC1 /* full_pause_btn@2x.png */; };
+		FBA9ED131BEFBA2900994AC1 /* full_pause_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED001BEFBA2900994AC1 /* full_pause_btn@3x.png */; };
+		FBA9ED141BEFBA2900994AC1 /* full_play_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED011BEFBA2900994AC1 /* full_play_btn@2x.png */; };
+		FBA9ED151BEFBA2900994AC1 /* full_play_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED021BEFBA2900994AC1 /* full_play_btn@3x.png */; };
+		FBA9ED161BEFBA2900994AC1 /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA9ED041BEFBA2900994AC1 /* FullViewController.m */; };
+		FBA9ED171BEFBA2900994AC1 /* mini_launchFullScreen_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED051BEFBA2900994AC1 /* mini_launchFullScreen_btn@2x.png */; };
+		FBA9ED181BEFBA2900994AC1 /* mini_launchFullScreen_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED061BEFBA2900994AC1 /* mini_launchFullScreen_btn@3x.png */; };
+		FBA9ED191BEFBA2900994AC1 /* mvplayer_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED071BEFBA2900994AC1 /* mvplayer_pause@2x.png */; };
+		FBA9ED1A1BEFBA2900994AC1 /* mvplayer_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED081BEFBA2900994AC1 /* mvplayer_play@2x.png */; };
+		FBA9ED1B1BEFBA2900994AC1 /* player_slider_playback_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED091BEFBA2900994AC1 /* player_slider_playback_thumb@2x.png */; };
+		FBA9ED1C1BEFBA2900994AC1 /* VidioPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA9ED0B1BEFBA2900994AC1 /* VidioPlayView.m */; };
+		FBA9ED1D1BEFBA2900994AC1 /* VidioPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBA9ED0C1BEFBA2900994AC1 /* VidioPlayView.xib */; };
+		FBB974A11BD7309600FCCE64 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB974A01BD7309600FCCE64 /* UIBarButtonItem+Extension.m */; };
+		FBB974A41BD73D6F00FCCE64 /* MyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB974A31BD73D6F00FCCE64 /* MyAccount.m */; };
+		FBC98E321BE4FAD600A941E2 /* MyStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC98E301BE4FAD600A941E2 /* MyStyleViewController.m */; };
+		FBC98E331BE4FAD600A941E2 /* MyStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC98E311BE4FAD600A941E2 /* MyStyleViewController.xib */; };
+		FBC98E351BE5087E00A941E2 /* skin in Resources */ = {isa = PBXBuildFile; fileRef = FBC98E341BE5087E00A941E2 /* skin */; };
+		FBC98E391BE5098400A941E2 /* SkinTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC98E381BE5098400A941E2 /* SkinTool.m */; };
+		FBEF2A571BE784D300881E29 /* MyCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2A551BE784D300881E29 /* MyCommentViewController.m */; };
+		FBEF2A581BE784D300881E29 /* MyCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEF2A561BE784D300881E29 /* MyCommentViewController.xib */; };
+		FBEF2A611BE7858B00881E29 /* MyCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2A5F1BE7858A00881E29 /* MyCommentCell.m */; };
+		FBEF2A621BE7858B00881E29 /* MyCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEF2A601BE7858B00881E29 /* MyCommentCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,6 +279,8 @@
 		FB899D7A1BD63C5600B056F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB90968B1BD7862F002D5A9A /* MyHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPSessionManager.h; sourceTree = "<group>"; };
 		FB90968C1BD7862F002D5A9A /* MyHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHTTPSessionManager.m; sourceTree = "<group>"; };
+		FB91710B1C0BE1C10059F7C6 /* CleanImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleanImages.h; sourceTree = "<group>"; };
+		FB91710C1C0BE1C10059F7C6 /* CleanImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleanImages.m; sourceTree = "<group>"; };
 		FBA9ECF81BEFBA2900994AC1 /* FullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullView.h; sourceTree = "<group>"; };
 		FBA9ECF91BEFBA2900994AC1 /* FullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullView.m; sourceTree = "<group>"; };
 		FBA9ECFB1BEFBA2900994AC1 /* bg_loading-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_loading-568h@2x.jpg"; sourceTree = "<group>"; };
@@ -660,6 +663,8 @@
 				FBB974A01BD7309600FCCE64 /* UIBarButtonItem+Extension.m */,
 				FB76C0B71BD69D3000D79972 /* UIView+Extension.h */,
 				FB76C0B81BD69D3000D79972 /* UIView+Extension.m */,
+				FB91710B1C0BE1C10059F7C6 /* CleanImages.h */,
+				FB91710C1C0BE1C10059F7C6 /* CleanImages.m */,
 				FB76C0AE1BD69D3000D79972 /* REFrostedViewController */,
 				FB4B036D1BE39643002281B4 /* UIImage+Extension.h */,
 				FB4B036E1BE39643002281B4 /* UIImage+Extension.m */,
@@ -1197,6 +1202,7 @@
 				FB4B036F1BE39643002281B4 /* UIImage+Extension.m in Sources */,
 				FB76C0DA1BD69D3000D79972 /* UIViewController+REFrostedViewController.m in Sources */,
 				FB0651AF1BDFBB2C00107E7E /* MyTopicViewController.m in Sources */,
+				FB91710D1C0BE1C10059F7C6 /* CleanImages.m in Sources */,
 				FB7259DE1BE0580D0082CFB8 /* UIImageView+Extension.m in Sources */,
 				FBC98E321BE4FAD600A941E2 /* MyStyleViewController.m in Sources */,
 				FB76C0E01BD69D3000D79972 /* MyMenuCell.m in Sources */,
@@ -1486,8 +1492,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (U9N6SHNNAN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (U9N6SHNNAN)";
 				GCC_PREFIX_HEADER = MyStatus/PrefixHeader.pch;
 				INFOPLIST_FILE = MyStatus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1504,8 +1510,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (U9N6SHNNAN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (U9N6SHNNAN)";
 				GCC_PREFIX_HEADER = MyStatus/PrefixHeader.pch;
 				INFOPLIST_FILE = MyStatus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

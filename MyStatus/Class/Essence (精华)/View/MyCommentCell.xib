@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -15,7 +15,6 @@
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dro-sf-nKi" userLabel="头像">
                         <rect key="frame" x="10" y="10" width="40" height="40"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="ZvO-P3-fZe"/>
                             <constraint firstAttribute="width" constant="40" id="ipe-5m-ni8"/>
@@ -23,7 +22,6 @@
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile_manIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ux7-lL-y5g" userLabel="性别">
                         <rect key="frame" x="50" y="10" width="30" height="20"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="glh-7u-BfZ"/>
                             <constraint firstAttribute="width" constant="30" id="uZe-Gc-w87"/>
@@ -31,14 +29,12 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVp-Yx-nCO" userLabel="用户名">
                         <rect key="frame" x="80" y="10" width="35.5" height="20"/>
-                        <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDZ-VC-1T8" userLabel="点赞按钮">
                         <rect key="frame" x="280" y="10" width="30" height="30"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="30" id="7vS-Bg-JcP"/>
                             <constraint firstAttribute="height" constant="30" id="uWa-2l-84i"/>
@@ -50,14 +46,12 @@
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabe" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJU-Dh-fWK" userLabel="评论内容">
                         <rect key="frame" x="58" y="35" width="207" height="50.5"/>
-                        <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Nf-eY-bRz" userLabel="点赞数量">
                         <rect key="frame" x="270" y="40" width="40" height="16"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="40" id="5y9-g2-nOM"/>
                         </constraints>
@@ -66,7 +60,6 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <animations/>
                 <constraints>
                     <constraint firstItem="Dro-sf-nKi" firstAttribute="top" secondItem="euO-06-TYS" secondAttribute="top" constant="10" id="27E-2Z-5m0"/>
                     <constraint firstAttribute="bottom" secondItem="sJU-Dh-fWK" secondAttribute="bottom" constant="10" id="7xq-Rv-prJ"/>
@@ -85,7 +78,6 @@
                     <constraint firstItem="3Nf-eY-bRz" firstAttribute="top" secondItem="zDZ-VC-1T8" secondAttribute="bottom" id="wVJ-fy-6zL"/>
                 </constraints>
             </tableViewCellContentView>
-            <animations/>
             <connections>
                 <outlet property="contenLabel" destination="sJU-Dh-fWK" id="97U-lf-hHi"/>
                 <outlet property="iconVIew" destination="Dro-sf-nKi" id="4nG-za-hwb"/>

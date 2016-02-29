@@ -57,6 +57,5 @@
     
     [viewController playVideoWithStreamURL:[NSURL URLWithString:self.topics.videouri]];
     [viewController playVideoWithStreamURL:[NSURL URLWithString:self.topics.voiceuri]];
-
 }
 @end

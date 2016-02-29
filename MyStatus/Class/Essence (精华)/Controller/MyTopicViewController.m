@@ -110,11 +110,12 @@ static NSString * const XMGCellId = @"topic";
         //                    }
         //                    i ++;
         //                }
-        //                MyWriteToPlist(responseObject, @"top_2");
+        
         //存储maxtime
         weakSelf.maxtime = responseObject[@"info"][@"maxtime"];
         
         // 字典数组 ->模型数组
+        MyWriteToPlist(responseObject, @"top_2");
         NSArray *moreTopics =[MyTopics objectArrayWithKeyValuesArray:responseObject[@"list"]];
         
         // 增加到以前数组的最后面
@@ -156,6 +157,7 @@ static NSString * const XMGCellId = @"topic";
         //                }
         //                MyWriteToPlist(responseObject, @"top_1");
         // 存储maxtime
+        
         self.maxtime = responseObject[@"info"][@"maxtime"];
         
         // 字典数组 ->模型数组

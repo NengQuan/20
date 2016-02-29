@@ -1,24 +1,18 @@
 PODS:
-  - AFNetworking (2.6.1):
-    - AFNetworking/NSURLConnection (= 2.6.1)
-    - AFNetworking/NSURLSession (= 2.6.1)
-    - AFNetworking/Reachability (= 2.6.1)
-    - AFNetworking/Security (= 2.6.1)
-    - AFNetworking/Serialization (= 2.6.1)
-    - AFNetworking/UIKit (= 2.6.1)
-  - AFNetworking/NSURLConnection (2.6.1):
+  - AFNetworking (3.0.3):
+    - AFNetworking/NSURLSession (= 3.0.3)
+    - AFNetworking/Reachability (= 3.0.3)
+    - AFNetworking/Security (= 3.0.3)
+    - AFNetworking/Serialization (= 3.0.3)
+    - AFNetworking/UIKit (= 3.0.3)
+  - AFNetworking/NSURLSession (3.0.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.1)
-  - AFNetworking/Security (2.6.1)
-  - AFNetworking/Serialization (2.6.1)
-  - AFNetworking/UIKit (2.6.1):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (3.0.3)
+  - AFNetworking/Security (3.0.3)
+  - AFNetworking/Serialization (3.0.3)
+  - AFNetworking/UIKit (3.0.3):
     - AFNetworking/NSURLSession
   - CocoaLumberjack (1.7.0):
     - CocoaLumberjack/Core (= 1.7.0)
@@ -39,8 +33,8 @@ PODS:
   - DTFoundation/UIKit (1.7.8):
     - DTFoundation/Core
   - FXImageView (1.3.5)
-  - MJExtension (2.5.14)
-  - MJRefresh (2.4.12)
+  - MJExtension (3.0.7)
+  - MJRefresh (3.0.7)
   - Reachability (3.1.1)
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
@@ -66,14 +60,14 @@ DEPENDENCIES:
   - VKVideoPlayer
 
 SPEC CHECKSUMS:
-  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
+  AFNetworking: ba06eb9f27de596808c0acc09e1c920cb1d17ab4
   CocoaLumberjack: a2213b8410917a1a5ecfc5c63a4206edc24d3a5b
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DTCoreText: 934a16fe9ffdd169c96261721b39dc312b75713d
   DTFoundation: 46e2b2fafe78d67febfd8d1f85fe9845a093f00e
   FXImageView: 7d84722b37f0afea9a64f12fdd4a6c7f9ecc4b16
-  MJExtension: fb8e6e900fb44c9a7be435ba3d72b7fdf5f0994c
-  MJRefresh: ca8e9589895977df32d379d46e6b8a5450b3ff44
+  MJExtension: 290cc966f0f849b12b6391a38e296e0004ae8e5e
+  MJRefresh: f3e1228ec3d38c7ba5208d58032631a52f39f495
   Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
